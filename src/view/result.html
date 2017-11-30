@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 公用头部  -->
+    <%= require('html-loader!./layout/head-common.html')  %>
+        <title>
+            <%= htmlWebpackPlugin.options.title%> - TaoMall电商平台
+        </title>
+</head>
+
+<body>
+    <!-- 页面头部  -->
+    <%= require('html-loader!./layout/headersm.html')  %>
+        <div class="resultInfo">
+            <div class="result-container hidden" id="regist">
+                <i></i>
+                <span class="succeed">恭喜您 注册成功!</span>
+                <p><span class="count">5</span>&nbsp;秒钟之后跳转到登录页&nbsp;,如果没有跳转&nbsp;,请点击这里&nbsp;<a href="./login.html" class="link">登录页</a></p>
+            </div>
+            <div class="result-container hidden" id="resetPassword">
+                <i></i>
+                <span class="succeed">恭喜您 密码修改成功!</span>
+                <p><span class="count">5</span>&nbsp;秒钟之后跳转到登录页&nbsp;,如果没有跳转&nbsp;,请点击这里&nbsp;<a href="./login.html" class="link">登录页</a></p>
+            </div>
+            <div class="result-container hidden" id="resetPayment">
+                <i></i>
+                <span class="succeed">恭喜您 支付成功!</span>
+                <div>
+                    <a href="./index.html"><span class="btn">继续购物</span></a>
+                    <a href="./order-detail.html?orderNumber=" class="orderNum"><span class="btn">查看该订单</span></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 页面底部  -->
+        <%= require('html-loader!./layout/footersm.html')  %>
+</body>
+
+</html>

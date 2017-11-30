@@ -1,0 +1,70 @@
+/*
+ * @Author: lptTao 
+ * @Date: 2017-08-08 10:33:14 
+ * @Last Modified by: lptTao
+ * @Last Modified time: 2017-08-22 19:58:42
+ */
+/*
+ * @Author: lpTao 
+ * @Date: 2017-08-03 20:34:54 
+ * @Last Modified by:   lpTao 
+ * @Last Modified time: 2017-08-03 20:34:54 
+ */
+.page-center{
+    border-top:2px solid red;
+    padding:40px 0 0 0;
+}
+.panel{
+     float:left;
+     width:1060px;
+     background-color: #fff;
+     border-radius: 10px;
+     min-height: 350px;
+}
+.panel .panel-title{
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    color: #666;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+.panel .error{
+    height:191px;
+    background: url(../../imgage/shibai2.png) no-repeat;
+    margin-left:360px;
+    margin-top:30px;
+}
+.panel .error span{
+    position: relative;
+    left:170px;
+    font-size:17px;
+    top:80px;
+    color: #c5c5c5;
+}
+.loading{
+    margin: 100px 0 0 480px;
+}
+.panel-body .user-info{
+    width: 300px;
+    margin:20px auto;
+}
+.user-info .form-line{
+    font-size:16px;
+    color:#444;
+    margin: 20px 0;
+}
+.user-info .form-line .label{
+    color: #222;
+    font-weight:bold;
+}
+.btn{
+    width: 150px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius:8px;
+    margin-top:30px;
+}
+

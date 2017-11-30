@@ -1,0 +1,34 @@
+{{#notEmpty}}
+<div class="list-cart">
+    {{#cartProductVoList}}
+    <table class="table" data-product-id="{{productId}}">
+        <tr>
+            <td class="cell-cart img">
+                <a class="link" href="./detail.html?productId={{productId}}">
+                    <img class="p-img" src="{{imageHost}}{{productMainImage}}" alt="{{productName}}" />
+                </a>
+            </td>
+            <td class="cell-cart info">
+                <a class="link" href="./detail.html?productId={{productId}}">{{productName}}</a>
+            </td>
+            <td class="cell-cart count">
+                ￥{{productPrice}}x{{quantity}}
+            </td>
+            <td class="cell-cart opera">
+                <span class="cart-delete1">删除</span>
+            </td>
+        </tr>
+    </table>
+    {{/cartProductVoList}}
+</div>
+<div class="footer-cart">
+    <div class="submit-con clearfixe">
+        <div class="desc">
+        <span class="tatol-container">共计<span class="count-tatol">{{cartProductVoList.length}}</span>件商品</span>
+        <span>总计<span class="submit-total">￥{{cartTotalPrice}}</span></span></div>
+        <a href="./order-confirm.html"><span class=" btn-submit">去购物车结算</span></a>
+    
+    </div>
+</div>
+{{/notEmpty}} {{^notEmpty}}
+<i class="car-img"></i> 购物车中海没有商品赶紧选购吧 {{/notEmpty}}

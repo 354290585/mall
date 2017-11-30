@@ -1,0 +1,29 @@
+* bottom样式  */
+.bottom{
+    margin-bottom: 30px;
+}
+.bottom .links {
+    width: 1210px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bottom .links span {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+
+.bottom .links a {
+    padding: 0 15px;
+}
+
+.bottom .copyright {
+    text-align: center;
+    padding-top: 20px;
+    color: #666;
+}

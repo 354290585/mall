@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 公用heade  -->
+    <%= require('html-loader!./layout/head-common.html')  %>
+        <title>
+            <%= htmlWebpackPlugin.options.title%> - TaoMall电商平台</title>
+</head>
+
+<body>
+    <!-- 头部导航  -->
+    <%= require('html-loader!./layout/nav.html') %>
+    <!-- heder  -->
+    <%= require('html-loader!./layout/header.html') %>
+            <div class="page-wrap">
+                <div class="w page-wrap2">
+                </div>
+            </div>
+    <!-- footer  -->
+    <%= require('html-loader!./layout/footer.html') %>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+/*
+ * @Author: lpTao 
+ * @Date: 2017-08-03 20:36:14 
+ * @Last Modified by: lptTao
+ * @Last Modified time: 2017-08-08 10:18:37
+ */
+.nav-side{
+    float: left;
+    width:130px;
+    min-height:240px;
+}
+.nav-side .nav-item{
+    font-size:16px;
+    margin-bottom:30px;
+}
+.nav-side .nav-item.active .link{
+    color: red;
+}

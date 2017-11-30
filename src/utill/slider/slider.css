@@ -1,0 +1,108 @@
+/* banner */
+
+.unslider {
+    overflow: auto;
+    margin: 0;
+    padding: 0
+}
+
+.unslider-wrap {
+    position: relative
+}
+
+.unslider-wrap.unslider-carousel>li {
+    float: left
+}
+
+.unslider-vertical>ul {
+    height: 100%
+}
+
+.unslider-vertical li {
+    float: none;
+    width: 100%
+}
+
+.unslider-fade {
+    position: relative
+}
+
+.unslider-fade .unslider-wrap li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 8
+}
+
+.unslider-fade .unslider-wrap li.unslider-active {
+    z-index: 10
+}
+
+.unslider li,
+.unslider ol,
+.unslider ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none
+}
+
+
+/* 前后按钮  */
+
+.unslider-arrow {
+    position: absolute;
+    top: 160px;
+    width: 30px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    background: #ccc;
+    background: rgba(0, 0, 0, .2);
+    cursor: pointer;
+    z-index: 15
+}
+
+.unslider-arrow:hover {
+    background: #aaa;
+    background: rgba(0, 0, 0, .5);
+}
+
+.unslider-arrow.next {
+    right:0;
+}
+
+
+/* 引导的小圆点 */
+
+.unslider-nav {
+    position: relative;
+    top: -30px;
+    z-index: 15
+}
+
+.unslider-nav ol {
+    list-style: none;
+    text-align: center;
+}
+
+.unslider-nav ol li {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin: 0 4px;
+    background: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    text-indent: -999em;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.unslider-nav ol li.unslider-active {
+    background: #fff;
+    cursor: default;
+}

@@ -1,0 +1,131 @@
+/*
+ * @Author: lptTao 
+ * @Date: 2017-07-24 15:38:37 
+ * @Last Modified by: lptTao
+ * @Last Modified time: 2017-08-09 10:04:01
+ */
+
+
+/* CSS reset------start */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f6f6f6;
+    font: 12px/1.5 Microsoft YaHei,tahoma, arial,sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    /* display: block; */
+    border: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type='checkbox'] {
+    cursor: pointer;
+}
+
+button,
+a {
+    text-decoration: none;
+}
+
+input,
+button {
+    outline: none;
+}
+
+
+/* CSS reset------end */
+
+
+/* util CSS------start */
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clearfixe:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.hidden {
+    display: none;
+}
+.opacity{
+    opacity: 0;
+}
+
+.link {
+    color: #666;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #e80012;
+}
+
+.link-text {
+    color: #666;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    border: none;
+    background-color: #c60023;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-mini {
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.loading {
+    margin: 10px auto;
+    display: block;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: url(../../imgage/icon/loading.gif) no-repeat;
+    opacity: .6;
+}
+
+
+/* util CSS------end */
+
+
+/* 定宽布局 */
+
+.w {
+    width: 1190px;
+    margin: 0 auto;
+    position: relative;
+}

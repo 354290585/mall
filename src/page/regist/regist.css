@@ -1,0 +1,228 @@
+/*
+ * @Author: lptTao 
+ * @Date: 2017-07-28 17:52:35 
+ * @Last Modified by: lptTao
+ * @Last Modified time: 2017-08-02 10:26:57
+ */
+
+
+/* page-top  */
+
+body {
+    background-color: #fff;
+}
+
+.regist-page .page-top {
+    /* box-shadow: 0px 6px 19px 0 #c8c8c8; */
+    background: url(//misc.360buyimg.com/user/reg/1.0.0/css/i/headbg.jpg) repeat-x left bottom;
+}
+
+.regist-page .page-top .container {
+    width: 1210px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.page-top .container .regist-logo {
+    width: 100px;
+    height: 80px;
+    background: url(../../imgage/logo.png) no-repeat;
+    background-size: 100px 80px;
+}
+
+.page-top .container .title {
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    line-height: 80px;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.page-top .container .login-hint {
+    margin-top: 40px;
+}
+
+.page-top .container .login-hint span {
+    font-size: 16px;
+    color: #999;
+}
+
+.page-top .container .login-hint span a {
+    color: #333;
+}
+
+
+/* 表单样式  */
+
+.regist-page .regist-page-from {
+    width: 400px;
+    margin: 50px auto 20px auto;
+}
+
+.regist-page-from .input-container {
+    border: 1px solid #ddd;
+}
+
+.ac {
+    border: 1px solid red !important
+}
+
+.regist-page-from .input-container label {
+    width: 90px;
+    height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+    font-size: 14px;
+    text-align: justify;
+    text-align-last: justify;
+    cursor: default;
+    color: #777;
+}
+
+.regist-page-from .input-container label::after {
+    display: inline-block;
+    content: '';
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+}
+
+.regist-page-from .input-container .regist-input {
+    height: 52px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "Hiragino Sans GB";
+    line-height: 50px;
+    border: none;
+    margin-left: 20px;
+    width: 230px;
+}
+
+.regist-input::placeholder {
+    color: rgb(204, 204, 204);
+}
+
+.regist-page-from .input-container .right-icon {
+    background: url(//misc.360buyimg.com/user/reg/1.0.0/css/i/icon.png) no-repeat;
+    background-position: 0 -117px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    right: 0px;
+}
+
+
+/* 提示信息  */
+
+.regist-page-from .hint-container {
+    width: 400px;
+    color: rgb(204, 204, 204);
+    padding: 7px 0;
+    height: 18px;
+}
+
+.regist-page-from .hint-container span .tip {
+    background: url(//misc.360buyimg.com/user/reg/1.0.0/css/i/icon.png) no-repeat;
+    background-position: 0 -100px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin: 0 5px 0 2px;
+}
+
+.regist-page-from .hint-container span .error {
+    background: url(//misc.360buyimg.com/user/reg/1.0.0/css/i/icon.png) no-repeat;
+    background-position: -17px -100px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin: 0 5px 0 2px;
+}
+
+.regist-page-from .hint-container .hint-error {
+    color: red;
+}
+
+.error2 {
+    background: url(//misc.360buyimg.com/user/reg/1.0.0/css/i/icon.png) no-repeat;
+    background-position: -17px -134px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin: 0 5px 0 2px;
+    color: rgb(204, 204, 204) !important;
+}
+
+
+/* 提交按钮 & agreen样式  */
+
+.agreen {
+    margin-top: 6px;
+    padding-left: 2px;
+}
+
+.agreen #checkbox {
+    width: 18px;
+    height: 18px;
+    border: solid 1px #cfd1d3;
+    vertical-align: text-top;
+}
+
+.agreen a {
+    color: blue;
+}
+
+.agreen a:hover {
+    text-decoration: underline;
+}
+
+.subimt-button {
+    width: 400px;
+    height: 54px;
+    text-align: center;
+    line-height: 54px;
+    background-color: #e22;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+
+/* bottom样式  */
+.bottom{
+    margin-bottom: 30px;
+}
+.bottom .links {
+    width: 1210px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.bottom .links span {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+
+.bottom .links a {
+    padding: 0 15px;
+}
+
+.bottom .copyright {
+    text-align: center;
+    padding-top: 20px;
+    color: #666;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 公用heade  -->
+    <%= require('html-loader!./layout/head-common.html')%>
+        <title>
+            <%= htmlWebpackPlugin.options.title%> - TaoMall电商平台
+        </title>
+</head>
+
+<body>
+    <div class="regist-page">
+        <div class="page-top">
+            <div class="container clearfixe">
+                <a href="./index.html">
+                    <div class="regist-logo float-left">
+
+                    </div>
+                </a>
+                <h2 class="title float-left">欢迎注册</h2>
+                <div class="login-hint float-right">
+                    <span>已有账号&nbsp;?&nbsp;&nbsp;<a href="./login.html">请登录</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="regist-page-from">
+            <div class="input-container clearfixe">
+                <label for="username" class="float-left">用&nbsp; 户&nbsp; 名</label>
+                <input type="text" id="username" class="regist-input float-left" placeholder="您的账户和登录名" maxlength="20">
+                <i class="right-icon" style="display:none"></i>
+            </div>
+            <div class="hint-container">
+                <span class="hint-tip  hidden">
+                <i class="tip"></i>
+                支持数字、字母、“-”&nbsp;“_”组合,4-16个字符
+                </span>
+                <span class="hint-error  hidden">
+                   <i class="error"></i>
+                长度只能在4-16个字符之间
+                </span>
+            </div>
+
+
+            <div class="input-container clearfixe">
+                <label for="psw" class="float-left">设&nbsp; 置&nbsp; 密&nbsp; 码</label>
+                <input type="text" id="password" class="regist-input float-left" placeholder="建议至少使用两种字符组合" maxlength="20">
+                <i class="right-icon" style="display:none"></i>
+            </div>
+            <div class="hint-container">
+                <span class="hint-tip hidden">
+                <i class="tip"></i>
+                建议使用字母、数字和符号两种及以上组合,6-16个字符
+                </span>
+                <span class="hint-error hidden">
+                   <i class="error"></i>
+                长度只能在6-16个字符之间
+                </span>
+            </div>
+
+
+
+            <div class="input-container clearfixe">
+                <label for="psw" class="float-left">确&nbsp; 认&nbsp; 密&nbsp; 码</label>
+                <input type="text" id="passwordAgin" class="regist-input float-left" placeholder="请再次输入密码" maxlength="20">
+                <i class="right-icon" style="display:none"></i>
+            </div>
+            <div class="hint-container">
+                <span class="hint-tip hidden">
+                <i class="tip"></i>
+                请再次输入密码
+                </span>
+                <span class="hint-error hidden">
+                   <i class="error"></i>
+                两次密码输入不一致
+                </span>
+            </div>
+
+            <div class="input-container clearfixe">
+                <label for="psw" class="float-left">邮&nbsp; 箱&nbsp; 验&nbsp; 证</label>
+                <input type="text" id="email" class="regist-input float-left" placeholder="建议使用常用邮箱" maxlength="21">
+                <i class="right-icon" style="display:none"></i>
+            </div>
+            <div class="hint-container">
+                <span class="hint-tip hidden">
+                <i class="tip"></i>
+                完成验证后,你可以使用该邮箱登录和找回密码
+                </span>
+                <span class="hint-error hidden">
+                   <i class="error"></i>
+                格式有误
+                </span>
+            </div>
+
+            <div class="input-container clearfixe">
+                <label for="psw" class="float-left">手&nbsp; 机</label>
+                <input type="text" id="phone" class="regist-input float-left" placeholder="建议使用常用手机" maxlength="11">
+                <i class="right-icon" style="display:none"></i>
+            </div>
+            <div class="hint-container">
+                <span class="hint-tip hidden">
+                <i class="tip"></i>
+                完成验证后,你可以使用该手机号登录和找回密码
+                </span>
+                <span class="hint-error hidden">
+                   <i class="error"></i>
+                格式有误
+                </span>
+            </div>
+            <div class="input-container clearfixe">
+                <label for="psw" class="float-left">安&nbsp; 全&nbsp; 问&nbsp; 题</label>
+                <input type="text" id="question" class="regist-input float-left" placeholder="请设置安全问题">
+                <i class="right-icon" style="display:none"></i>
+            </div>
+            <div class="hint-container">
+                <span class="hint-tip hidden">
+                <i class="tip"></i>
+                完成验证后,你可以使用安全问题找回密码
+                </span>
+                <span class="hint-error hidden">
+                   <i class="error"></i>
+                不能为空
+                </span>
+            </div>
+            <div class="input-container clearfixe">
+                <label for="psw" class="float-left">问&nbsp; 题&nbsp; 答&nbsp; 案</label>
+                <input type="text" id="key" class="regist-input float-left" placeholder="请输入问题答案">
+                <i class="right-icon" style="display:none"></i>
+            </div>
+            <div class="hint-container">
+                <span class="hint-tip hidden">
+                <i class="tip"></i>
+                完成验证后,你可以使用安全问题找回密码
+                </span>
+                <span class="hint-error hidden">
+                   <i class="error"></i>
+                不能为空
+                </span>
+            </div>
+
+
+
+            <div class="agreen">
+                <input type="checkbox" id="checkbox">阅读并同意
+                <a href="#javascript">《注册协议》</a>
+                <a href="#javascript">《隐私协议》</a>
+            </div>
+            <div class="hint-container">
+                <span class="hint-error hidden">
+                   <i class="error"></i>
+                 请阅读并同意Mall协议
+                </span>
+            </div>
+            <div class="subimt-button">
+                立即注册
+            </div>
+
+
+        </div>
+        <!-- 页面底部  -->
+         <%= require('html-loader!./layout/footersm.html') %>
+    </div>
+
+
+</body>
+
+</html>

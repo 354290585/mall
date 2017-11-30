@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 公用heade  -->
+    <%= require('html-loader!./layout/head-common.html')  %>
+        <title>
+            <%= htmlWebpackPlugin.options.title%> - TaoMall电商平台</title>
+</head>
+
+<body>
+    <!-- 头部导航  -->
+    <%= require('html-loader!./layout/nav.html') %>
+        <!-- heder  -->
+        <%= require('html-loader!./layout/header.html') %>
+            <div class="page-center">
+                <div class="page-wrap w clearfixe">
+                    <%= require('html-loader!./layout/nav-side.html')  %>
+                        <div class="panel">
+                            <div class="panel-title">修改密码</div>
+                            <div class="panel-body">
+                                <div class="user-info">
+                                    <div class="form-line">
+                                        <span class="label">原&nbsp;密&nbsp;&nbsp;码：</span>
+                                        <input type="password" class="input" id="password" autocomplete="off" />
+                                    </div>
+                                    <div class="form-line">
+                                        <span class="label">新&nbsp;密&nbsp;&nbsp;码：</span>
+                                        <input type="password" class="input" id="password-new" autocomplete="off" />
+                                    </div>
+                                    <div class="form-line">
+                                        <span class="label">确认密码：</span>
+                                        <input type="password" class="input" id="password-confirm" autocomplete="off" />
+                                    </div>
+                                    <span class="btn btn-submit">提交</span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <!-- footer  -->
+            <%= require('html-loader!./layout/footer.html') %>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+/*
+ * @Author: lptTao 
+ * @Date: 2017-08-22 19:14:05 
+ * @Last Modified by: lptTao
+ * @Last Modified time: 2017-08-22 21:27:16
+ */
+
+.page-center {
+    border-top: 2px solid red;
+    padding: 40px 0 0 0;
+}
+
+
+/* panel样式  */
+
+.panel {
+    float: left;
+    width: 1060px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+.panel .panel-title {
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    color: #666;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+
+
+/* order-info  */
+
+.order-info {
+    padding:0 0 8px 10px;
+    font-size: 13px;
+}
+
+.text-line {
+    line-height: 32px;
+}
+
+.text-line .text {
+    margin-right: 20px;
+}
+
+.text-line .btn {
+    background-color: red;
+       height: 28px;
+    line-height: 28px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom:10px;
+    font-size:13px;
+    font-weight: bold;
+}
+
+
+/* order-detail  */
+
+.product-table {
+    border-collapse: collapse;
+    width: 98%;
+    margin: 5px auto;
+}
+
+.product-table .cell-th {
+    background-color: #eee;
+}
+
+.product-table .cell {
+    background-color: #fafafa;
+}
+
+.product-table .cell-img {
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+}
+
+.product-table .cell-img .p-img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+}
+
+.product-table .cell-info {
+    width: 45%;
+    text-align: left;
+    padding-left: 8px;
+}
+
+.product-table .cell-price {
+    width: 15%;
+    text-align: center;
+}
+
+.product-table .cell-count {
+    width: 20%;
+    text-align: center;
+}
+
+.product-table .cell-total {
+    width: 20%;
+    text-align: center;
+}
+
+.product-table .s {
+    font-weight: bold;
+    color: red;
+    font-size: 13px;
+}
+
+.total {
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px 20px 0 0;
+    text-align: right;
+}
+
+.total .total-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+}

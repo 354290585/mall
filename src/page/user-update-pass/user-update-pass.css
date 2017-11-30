@@ -1,0 +1,46 @@
+/*
+ * @Author: lptTao 
+ * @Date: 2017-08-09 10:29:24 
+ * @Last Modified by: lptTao
+ * @Last Modified time: 2017-08-22 19:58:17
+ */
+.page-center{
+    border-top:2px solid red;
+    padding:40px 0 0 0;
+}
+.panel{
+     float:left;
+     width:1060px;
+     background-color: #fff;
+     border-radius: 10px;
+     min-height: 350px;
+}
+.panel .panel-title{
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    color: #666;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+.btn{
+    width: 150px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius:8px;
+    margin:20px 0 0 60px;
+}
+.user-info{
+    margin:40px 380px;
+}
+.form-line{
+    margin: 20px 0;
+    font-size:16px;
+    width: 300px;
+}
+.label{
+    font-weight: bold;
+    color:#666;
+}

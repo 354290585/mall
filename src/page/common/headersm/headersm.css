@@ -1,0 +1,31 @@
+/*
+ * @Author: lptTao 
+ * @Date: 2017-08-02 10:52:59 
+ * @Last Modified by: lptTao
+ * @Last Modified time: 2017-08-02 11:19:13
+ */
+.page-top {
+    /* box-shadow: 0px 6px 19px 0 #c8c8c8; */
+    background: url(//misc.360buyimg.com/user/reg/1.0.0/css/i/headbg.jpg) repeat-x left bottom;
+}
+.page-top .container {
+    width: 1210px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.page-top .container .regist-logo {
+    width: 100px;
+    height: 80px;
+    background: url('../../../imgage/logo.png') no-repeat;
+    background-size: 100px 80px;
+}
+
+.page-top .container .title {
+    line-height: 34px;
+    font-size: 24px;
+    color: #333;
+    line-height: 80px;
+    margin-left: 20px;
+    font-weight: normal;
+}

@@ -1,0 +1,148 @@
+/*
+ * @Author: lptTao 
+ * @Date: 2017-08-22 17:27:09 
+ * @Last Modified by: lptTao
+ * @Last Modified time: 2017-08-22 20:38:24
+ */
+
+.page-center {
+    border-top: 2px solid red;
+    padding: 40px 0 0 0;
+}
+
+
+/* panel样式  */
+
+.panel {
+    float: left;
+    width: 1060px;
+    background-color: #fff;
+    border-radius: 10px;
+    min-height: 325px;
+}
+
+.panel .panel-title {
+    font-size: 16px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 15px;
+    color: #666;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+
+
+/* order-list样式  */
+
+.order-list-con {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.order-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fafafa;
+    margin-bottom: 18px;
+    margin-top: 5px;
+}
+
+.order-list-table .cell {
+    padding: 10px 0;
+    color: #666;
+    border-bottom: 1px solid #eee;
+}
+
+.order-list-table.header {
+    background-color: #eee;
+    font-size: 13px;
+}
+
+.order-list-table .order-info {
+    background-color: #eee;
+    padding: 10px 0;
+    color: #999;
+    font-size: 12px;
+}
+
+.order-list-table .order-info .order-text {
+    margin: 0 25px;
+    padding: 0 10px;
+}
+
+.order-list-table .order-info .order-num {
+    font-weight: bold;
+}
+
+.order-list-table .order-info .order-total {
+    font-weight: bold;
+    color: red;
+}
+
+.order-list-table .order-info .order-detail {
+    float: right;
+    padding-right: 20px;
+}
+
+.order-list-table .cell-img {
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+}
+
+.order-list-table .cell-img .p-img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #ddd;
+}
+
+.order-list-table .cell-info {
+    width: 45%;
+    text-align: left;
+    padding-left: 8px;
+}
+
+.order-list-table .cell-price {
+    width: 15%;
+    text-align: center;
+}
+
+.order-list-table .cell-count {
+    width: 20%;
+    text-align: center;
+}
+
+.order-list-table .cell-total {
+    width: 20%;
+    text-align: center;
+}
+
+.order-list-table .s {
+    font-weight: bold;
+    color: red;
+    font-size: 13px;
+}
+
+
+/* 订单错误提示信息  */
+
+.err-con {
+    width: 350px;
+    min-height: 160px;
+    margin: 80px 315px;
+}
+
+.err-con .err-icon {
+    width: 148px;
+    height: 148px;
+    display: inline-block;
+    background-image: url('../../imgage/shibai2.png')
+}
+
+.err-con .err-text {
+    font-size: 26px;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    color: #c5c5c5;
+}

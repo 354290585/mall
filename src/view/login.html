@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 公用heade  -->
+    <%= require('html-loader!./layout/head-common.html')  %>
+        <title>
+            <%= htmlWebpackPlugin.options.title%> - TaoMall电商平台
+        </title>
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="login-top">
+            <div class="login-header clearfixe">
+                <a href="./index.html"><div class="logo1 float-left">
+                </div></a>
+                <h1 class="login-title float-left">欢迎登陆</h1>
+            </div>
+        </div>
+        <div class="login-center">
+            <div class="login-content clearfixe">
+                <div class="login-module float-right clearfixe">
+                    <div class="login-button float-left">
+                        <span class="login-d1">扫码登陆</span>
+                    </div>
+                    <div class="login-button float-left">
+                        <span class="login-d2 ac">账户登陆</span>
+                    </div>
+
+                    <div class="hint-container ">
+                        <span class="hint-error hidden">
+                            <i class="error"></i>
+                            <span class="error-text"></span>
+                        </span>
+                    </div>
+                    
+                    <div class="dp">
+                        <div class="loginfrom clearfixe">
+                            <div class="un">
+                                <label for="username" class="login-label"><i class="fa fa-user"></i></label>
+                                <input type="text" class="login-input-name login-input" name="username" placeholder="请输入账号">
+                                <span class="clear-btn btn1 hidden"></span>
+                            </div>
+                            <div class="psd">
+                                <label for="password" class="login-label"><i class="fa fa-lock"></i></label>
+                                <input type="password" name="password" class="login-input-psd login-input" placeholder="密码">
+                                <span class="clear-btn btn2 hidden"></span>
+                            </div>
+                            <a href="./reset-password.html" class="link">忘记密码</a>
+                            <div class="login-button2">登&nbsp; &nbsp;陆</div>
+                        </div>
+                        <ul class="login-regist clearfixe">
+                            <li class="qq link float-left"><span>QQ</span></li>
+                            <li class="float-left"></li>
+                            <li class="weixin link float-left"><span>微信</span></li>
+                            <a href="./regist.html">
+                                <li class="float-right re link"><span>立即注册</span></li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="dp2 hidden">
+                        <div class="ewm clearfixe">
+                            <div class="left float-left">
+                                <!-- <img src="../../imgage/ewm.png" alt="二维码"> -->
+                            </div>
+                            <div class="right hidden float-left">
+
+                            </div>
+                        </div>
+                        <div class="login-des">
+                            <span class="login-po-title">
+                                打开<span class="link">手机Mall</span>&nbsp;&nbsp;&nbsp;扫描二维码
+                            </span>
+                            <ul class="clearfixe">
+                                <li class="float-left"><span>免输入</span></li>
+                                <li class="float-left"><span>更快</span></li>
+                                <li class="float-left"><span>更安全</span></li>
+                            </ul>
+                        </div>
+                        <ul class="login-regist clearfixe">
+                            <li class="qq link float-left"><span>QQ</span></li>
+                            <li class="float-left"></li>
+                            <li class="weixin link float-left"><span>微信</span></li>
+                            <a href="./regist.html">
+                                <li class="float-right re link"><span>立即注册</span></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="links">
+                <a class="link" href="http://www.hxsd.com" target="_blank">火星时代</a>
+                <span></span>
+                <a class="link" href="http://www.hxsd.tv" target="_blank">火星网校</a>
+                <span></span>
+                <a class="link" href="http://www.imooc.com" target="_blank">慕课网</a>
+                <span></span>
+                <a class="link" href="https://juejin.im/" target="_blank">掘金</a>
+                <span></span>
+                <a class="link" href="http://www.alloyteam.com/nav/" target="_blank">WEB前端导航</a>
+                <span></span>
+                <a class="link" href="https://354290585.github.io/gallery-by-react/" target="_blank">Demp1</a>
+                <span></span>
+                <a class="link" href="https://354290585.github.io/responsive/" target="_blank">Demo2</a>
+                <span></span>
+                <a class="link" href="https://facebook.github.io/react/" target="_blank">React</a>
+                <span></span>
+                <a class="link" href="http://cn.redux.js.org/" target="_blank">Redux</a>
+                <span></span>
+                <a class="link" href="https://ant.design/index-cn" target="_blank">And Design</a>
+            </div>
+            <p class="copyright">
+                Copyright © 2017 Taomall.com All Right Reserved
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

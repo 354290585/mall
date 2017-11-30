@@ -1,0 +1,124 @@
+    /*
+ * @Author: lptTao 
+ * @Date: 2017-08-11 13:08:45 
+ * @Last Modified by: lptTao
+ * @Last Modified time: 2017-08-11 21:01:41
+ */
+    /* 左侧导航  */
+
+    .category-banner .category-nav {
+        background-color: #6e6568;
+        font-size: 14px;
+        padding: 10px 0;
+        margin-right: 10px;
+        width: 240px;
+        height: 350px;
+    }
+
+    .category-banner .category-nav .cagitem {
+        height: 35px;
+        line-height: 35px;
+        padding-left: 12px;
+    }
+
+    .category-banner .category-nav .cagitem:hover {
+        background-color: #999;
+    }
+
+    .category-banner .category-nav .cagitem a {
+        margin-right: 6px;
+        color: #fff;
+    }
+
+    .category-banner .category-nav .cagitem a:hover {
+        color: red;
+    }
+    /* banner  */
+
+    .banner-content {
+        width: 940px;
+        height: 370px;
+    }
+
+    .banner {
+        width: 940px !important;
+        height: 370px !important;
+    }
+
+    .banner ul {
+        height: 370px !important;
+    }
+
+    .banner ul .banner-img {
+        width: 940px;
+        height: 370px;
+    }
+    /* floor */
+
+    .floor-wrap .floor-title {
+        height: 50px;
+        line-height: 50px;
+        color: #d58717;
+        font-weight: normal;
+        font-size: 20px;
+        border-bottom: 1px solid #d58717;
+    }
+    /* 更改各楼层标题颜色 */
+
+    .floor-wrap:nth-child(2) .floor-title {
+        color: #3b838c;
+        border-bottom: 1px solid #3b838c;
+    }
+
+    .floor-wrap:nth-child(3) .floor-title {
+        color: #a93931;
+        border-bottom: 1px solid #a93931;
+    }
+
+    .floor-wrap:nth-child(4) .floor-title {
+        color: #488bad;
+        border-bottom: 1px solid #488bad;
+    }
+
+    .floor-wrap:nth-child(5) .floor-title {
+        color: #642663;
+        border-bottom: 1px solid #642663;
+    }
+
+    .floor-wrap .floor-list {
+        overflow: hidden;
+        margin-right: -20px;
+    }
+
+    .floor-wrap .floor-list .floor-item {
+        position: relative;
+        width: 220px;
+        height: 220px;
+        margin: 15px 22px 15px 0;
+        float: left;
+        cursor: pointer;
+        background: #fff;
+    }
+
+    .floor-wrap .floor-list .floor-item:hover {
+        box-shadow: 3px 3px 14px #ddd;
+        transform: scale(1.03);
+        transition:transform .3s ease
+    }
+
+    .floor-wrap .floor-list .floor-item .floor-text {
+        position: absolute;
+        top: 12px;
+        left: 20px;
+        font-size: 16px;
+        color: #555;
+    }
+
+    .floor-wrap .floor-list .floor-item .floor-img {
+        position: absolute;
+        right: 15px;
+        bottom: 10px;
+        width: 80%;
+        height: 75%;
+        border: none;
+    }

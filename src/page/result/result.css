@@ -1,0 +1,47 @@
+/*
+ * @Author: lptTao 
+ * @Date: 2017-08-02 11:01:11 
+ * @Last Modified by: lptTao
+ * @Last Modified time: 2017-08-23 13:57:24
+ */
+body{
+    background-color: #fff;
+}
+.resultInfo{
+    width:1210px;
+    margin: 120px auto;
+    text-align: center;
+    height: 400px;
+}
+.result-container i{
+    background:url(//misc.360buyimg.com/user/reg/1.0.0/css/i/icon.png) no-repeat;
+    background-position: -100px -50px;
+    width: 100px;
+    height: 70px;
+    display: inline-block;
+}
+.result-container .succeed{
+    font-size: 40px;
+    color: red;
+    position: relative;
+    top:-18px;
+}
+.result-container  p{
+    padding-top:15px;
+    font-size: 14px;
+    padding-left:18px;
+}
+.result-container p a{
+    text-decoration: underline ;
+    color: red;
+}
+#resetPayment .btn{
+    background-color: #ddd;
+    color: #222;
+    width:70px;
+    font-size:13px;
+    font-weight: normal;
+    height: 28px;
+    line-height: 28px;
+    margin:15px 25px 0 50px;
+}

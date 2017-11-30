@@ -1,0 +1,35 @@
+{
+  "name": "mall-fe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=dev && webpack-dev-server --progress --colors",
+    "dist": "rd/s/q dist && set NODE_ENV=production && webpack --config ./webpack.production.config.js --progress --colors",
+    "mock": "node ./mock/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.oschina.net:demomall/mall-fe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.29.0",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "postcss-loader": "^2.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "hogan": "^1.0.2"
+  }
+}
